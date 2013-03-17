@@ -8,7 +8,7 @@
 i = 1
 
 while true
-  break unless (2..20).any? {|n| i % n != 0}
+  break unless (2..5).any? {|n| i % n != 0}
   i+=1
 end
 
